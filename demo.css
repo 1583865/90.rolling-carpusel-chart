@@ -1,0 +1,43 @@
+#screen {
+	width: 9999px;
+	height: 9999px;
+	animation: 8s fdsafdaf infinite;
+}
+#screen img {
+	float: left;
+}
+
+#tv {
+	width: 730px;
+	height: 454px;
+	overflow: hidden;
+	margin: 50px auto;
+
+}
+
+@keyframes fdsafdaf {
+	0% {
+		
+	}
+	25% {
+		transform: translateX(0px)
+	}
+	30% {
+		transform: translateX(-730px)
+	}
+	50% {
+		transform: translateX(-730px)
+	}
+	55% {
+		transform: translateX(-1460px)
+	}
+	75% {
+		transform: translateX(-1460px)
+	}
+	80% {
+		transform: translateX(-2190px)
+	}
+	100%{
+		transform: translateX(-2190px)
+	}
+}
